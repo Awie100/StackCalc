@@ -1,0 +1,14 @@
+name: StackCalc
+version: '${project.version}'
+main: me.awie1000.stackcalc.StackCalc
+api-version: 1.20
+
+commands:
+  calc:
+    description: calculate things
+    usage: /calc <arg0> <arg1> ... (in postfix notation)
+    permission: stackcalc.calc
+  macro:
+    description: deal with calculator macros
+    usage: /macro <add/list> <arg0> <arg1> ...
+    permission: stackcalc.macro

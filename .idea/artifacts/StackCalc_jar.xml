@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="StackCalc:jar">
+    <output-path>$USER_HOME$/OneDrive/Desktop/mcserver/plugins</output-path>
+    <root id="archive" name="StackCalc.jar">
+      <element id="module-output" name="StackCalc" />
+    </root>
+  </artifact>
+</component>
